@@ -18,7 +18,6 @@ function App() {
             <GridTriangle />
             <GridTriangle />
           </div>
-          <GridBoard />
           <div>
             <GridTriangle />
             <GridTriangle />
@@ -30,6 +29,7 @@ function App() {
         </div>
       </div>
       <div className="jjj">
+        <GridBoard />
         <GridBoard />
         <GridBoard />
       </div>

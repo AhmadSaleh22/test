@@ -94,6 +94,7 @@
 
 * {
   box-sizing: border-box;
+  margin: auto;
 }
 
 .grid-board {

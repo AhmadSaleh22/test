@@ -1,23 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import FirstClass from "./components/FirstClass";
+
+import GridBoard from "./components/GridBoard";
+import GridTriangle from "./components/GridTriangle";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="apppp">
+      <div className="App">
+        <div className="App-grid">
+          <div>
+            <GridTriangle />
+            <GridTriangle />
+            <GridTriangle />
+            <GridTriangle />
+            <GridTriangle />
+            <GridTriangle />
+          </div>
+          <GridBoard />
+          <div>
+            <GridTriangle />
+            <GridTriangle />
+            <GridTriangle />
+            <GridTriangle />
+            <GridTriangle />
+            <GridTriangle />
+          </div>
+        </div>
+      </div>
+      <div className="jjj">
+        <GridBoard />
+        <GridBoard />
+      </div>
     </div>
   );
 }
